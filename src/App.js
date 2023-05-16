@@ -24,8 +24,10 @@ class App extends React.Component {
   }
 
   render() {
+    const { advice } = this.state;
+
     return (
-      <h1></h1>
+      <h1>{advice}</h1>
     );
   }
 }
