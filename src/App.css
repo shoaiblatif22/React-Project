@@ -7,7 +7,7 @@
 
 .app {
     height: 100%;
-    background: url('./image/img.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('./image/img.png');
     background-size: cover;
     background-position: center;
     display: flex;
